@@ -114,6 +114,7 @@ const Forms = () => {
                                                     value={registerFormData.username}
                                                     onChange={collectRegisterFormData}
                                                     placeholder='Enter Username'
+                                                    autoComplete='off'
                                                 />
                                                 <p className='errorMessage'> {registerFormError.usernameError} </p>
                                             </div>
@@ -124,6 +125,7 @@ const Forms = () => {
                                                     value={registerFormData.email}
                                                     onChange={collectRegisterFormData}
                                                     placeholder='Enter Email'
+                                                    autoComplete='off'
                                                 />
                                                 <p className='errorMessage'> {registerFormError.emailError} </p>
                                             </div>
@@ -162,6 +164,7 @@ const Forms = () => {
                                                 value={loginFormData.username}
                                                 onChange={collectLoginFormData}
                                                 placeholder='Enter Username'
+                                                autoComplete='off'
                                             />
                                         </div>
                                         <div className="field">
@@ -190,7 +193,9 @@ const Forms = () => {
                                             name="email"
                                             value={forgotPassFormData.email}
                                             onChange={collectForgotPassFormData}
-                                            placeholder='Enter Registered Email' />
+                                            placeholder='Enter Registered Email'
+                                            autoComplete='off'
+                                        />
                                         <input type="submit" value="Get Recovery Mail" />
                                     </form>
                                     <button className='redirector' onClick={() => {
