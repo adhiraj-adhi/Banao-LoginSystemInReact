@@ -1,0 +1,92 @@
+.formContainer, .recoverPasswordForm {
+    min-width: 350px;
+    padding: 3.5rem 2.25rem;
+    background-color: #fbebcb;
+    border-radius: 10px;
+}
+
+.registerForm h3,
+.loginForm h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.9rem;
+}
+
+.registerForm form .field,
+.loginForm form input,
+.forgotPassword form input,
+.recoverPasswordForm input {
+    margin-bottom: 0.65rem;
+}
+
+.registerForm form .field input,
+.loginForm form input,
+.forgotPassword form input,
+.recoverPasswordForm input {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 0.45rem 0.75rem;
+    border-radius: 7px;
+}
+
+.registerForm form .field .errorMessage {
+    color: red;
+    font-size: 0.7rem;
+}
+
+.loginForm .errorMessage,
+.recoverPasswordForm .errorMessage {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 0.7rem;
+}
+
+.registerForm form input[type="submit"],
+.loginForm form input[type="submit"],
+.forgotPassword form input[type="submit"],
+.recoverPasswordForm input[type="submit"] {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 0.45rem 0.75rem;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #646dd3;
+    color: #fff;
+    margin-bottom: 0.75rem;
+}
+
+.registerForm .redirector,
+.loginForm .redirector {
+    font-size: 0.8rem;
+}
+
+.registerForm .redirector button,
+.loginForm .redirector button, .forgotPassword .redirector {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: rgb(9, 173, 238);
+    cursor: pointer;
+}
+
+.forgotPasswordBtn {
+    margin-top: 0.85rem;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    background-color: transparent;
+    color: rgb(229, 20, 20);
+    cursor: pointer;
+}
+
+.forgotPassword .message{
+    margin-bottom: 0.75rem;
+    color: red;
+}
+
+.forgotPassword .redirector{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
