@@ -134,7 +134,7 @@ const sendEmail = (id, email, name) => {
         from: process.env.Email,
         to: email,
         subject: 'Verification Email',
-        html: `<p> Hello ${name}, to verify your email please click on <a href="http://localhost:5173/recoverPassword/${token}">Verify</a></p>`
+        html: `<p> Hello ${name}, to change your password please click on <a href="http://localhost:5173/recoverPassword/${token}">Change Password</a></p>`
         // html: `<p> Hello ${name}, to verify your email please click on <a href="http://localhost:5173/recoverPassword">Verify</a></p>`
     };
 
