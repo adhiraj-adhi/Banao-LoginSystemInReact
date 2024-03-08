@@ -3,7 +3,7 @@
 MONGO_URL="Mongo's URL"
 Secret_Key="AnySecretKeyForJwtToken"
 
-# Verification Stuff:
+#Verification Stuff:
 Email=provideEmailHere
 Pass=passwordGoesHere
 VERIFY_EMAIL="PrivateKeyForCreatingTokenToVerifyEmail"
